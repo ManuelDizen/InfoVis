@@ -1,0 +1,54 @@
+*{
+    font-family: 'Manrope';
+}
+
+html{
+    height:100%;
+}
+
+h1{
+    font-family: 'Manrope';
+    margin: 0;
+}
+
+body{
+    top: 0px;
+    left: 0px;
+    margin:0;
+    min-height:100vh;
+}
+
+.title-container{
+    background-color: #1db954	;
+    color: white;
+    align-content: center;
+    text-align:center;
+    align-items:center;
+    margin: 0;
+    margin-bottom: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 7vh;
+    top: 0px;
+    left:0px;
+    width:100%;
+}
+
+.tableauContainer{
+    height: 20vh;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 80vh;
+    align-content: center;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
